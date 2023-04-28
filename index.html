@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,34 @@
     <title>Pokedex-V2</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Pokédex</h1>
+    <div>
+        <button onclick="getPreviousPage()">Previous</button>
+        <button onclick="getNextPage()">Next</button>
+    </div>
+    <div id="pokemon-container">
+        <!-- <details>
+            <summary>
+                <span>1</span>
+                <img class ="list-image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
+                <span>Bulbasaur</span>
+                <div class="spacer"></div>
+                <span>erba/</span>
+                <span>veleno</span>
+            </summary>
+            <div>
+                <ul>
+                    <li>Clorofilla</li>
+                    <li>Aiutoerba</li>
+                </ul>
+            </div>
+        </details> -->
+    </div>
+    
 </body>
 <script src="services/poke-services.js"></script>
 <script src="./app.js"></script>
+
 </html>

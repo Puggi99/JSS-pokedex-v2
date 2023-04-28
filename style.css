@@ -1,0 +1,32 @@
+.list-image {
+    width: 50px;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+}
+
+details{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #313131;
+    padding: 10px;
+    border-radius: 45px;
+    background-color: rgba(151, 43, 43, 0.103);
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+
+.spacer{
+    flex-grow: 1;
+}
+
+.type{
+    padding: 10px;
+    margin: 5px;
+    border: 1px rgba(0, 0, 0, 0.096) solid;
+    border-radius: 50px;
+    background-color: rgba(127, 255, 212, 0.151);
+}
