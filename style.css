@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 .list-image {
     width: 50px;
 }
 
+*{
+    font-family: Goldman, sans-serif;
+}
+
+body{
+    background-image: url('./assets/2200032_50ba6.png');
+    background-repeat: no-repeat;
+    background-size: 120vh 90vh;
+    background-position: 35vw center;
+    height: 95vh;
+    width: 100;
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+#pokemon-container{
+    /* box-sizing: border-box;
+    border: 1px solid black; */
+    width: 350px;
+    height: 45vh;
+    overflow: scroll;
+    margin-left: 480px;
+    margin-top: 120px;
+    justify-content: center;
+}
 summary {
     display: flex;
     align-items: center;
+    height: max-content;
+    width: 250px;
+   
 }
 
-details{
-    width: 90%;
+#pokemon-linea{
+    width: 300px;
     margin: auto;
     border: 1px solid #313131;
     padding: 10px;
@@ -16,6 +45,9 @@ details{
     background-color: rgba(151, 43, 43, 0.103);
     margin-bottom: 2px;
     margin-top: 10px;
+    font-size: 15px;
+  
+    
 }
 
 
@@ -24,9 +56,57 @@ details{
 }
 
 .type{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
     border: 1px rgba(0, 0, 0, 0.096) solid;
     border-radius: 50px;
     background-color: rgba(127, 255, 212, 0.151);
 }
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul img{
+    width: 100px;
+    height: 100px;
+}
+
+#abilities{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: max-content;
+    align-self:left;
+    font-size: 12px;
+}
+
+#height-weight{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: max-content;
+    font-size: 12px;
+    
+}
+
+#poke-stats{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: max-content;
+}
+
+#shiny-sprite{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: max-content;
+    align-self: flex-end;
+    font-size: 12px;
+    
+}
+
+
